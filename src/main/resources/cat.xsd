@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.foo"
+           targetNamespace="http://ws.foo" elementFormDefault="qualified">
+    <xs:element name="getRandomCatRequest">
+        <xs:complexType />
+    </xs:element>
+    <xs:element name="getRandomCatResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="cat" type="tns:wsCat"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="wsCat">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" />
+            <xs:element name="url" type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
