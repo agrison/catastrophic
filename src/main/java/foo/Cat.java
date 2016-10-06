@@ -103,7 +103,7 @@ import java.util.stream.StreamSupport;
 @EnableWebSecurity  // and some built-in security
 @NoArgsConstructor  // generate no args constructor
 @ContextConfiguration  // we want context configuration for unit testing
-@SpringBootApplication // this is a Sprint Boot application
+@SpringBootApplication // this is a Spring Boot application
 @Accessors(chain = true) // getters/setters are chained (ala jQuery)
 @EnableAspectJAutoProxy  // we want AspectJ auto proxy
 @EnableAutoConfiguration  // and auto configuration
