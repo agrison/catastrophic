@@ -1,1 +1,1 @@
-See https://medium.com/@algrison/monster-component-in-java-with-spring-45804a5744e6
+See http://grison.me/2016/09/30/monster-component-java-spring/
